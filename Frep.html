@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Form</title>
+</head>
+<body>
+    <div style="background-color:hsla(0,100%,50%,0.5);">
+        <form action="">
+            <h1 style="text-align: center;">contact Form</h1>
+            <p style="text-align: center;"> First Name : <input type="text" name=" First Name" id="Name"></p>
+            <p style="text-align: center;"> Last Name : <input type="text" name=" Last Name" id="Name"></p>
+            <p style="text-align: center;">Country : <input type="text" name="Country name" id="Name"></p>
+            <fieldset>
+                <legend style="text-align: center;">Gender</legend>
+                <p style="text-align: center;">
+                    Male <input type="radio" name="Gender" id="Male">
+                </p>
+                <p style="text-align: center;">
+                    Female <input type="radio" name="Gender" id="Female">
+                </p>
+            </fieldset> 
+            <p style="text-align: center;">Address : <textarea name="Address" id="Address" cols="100" rows="8"></textarea></p>  
+            <p style="text-align: center;">Email Address : <input type="email" name="Email" id="email"></p>
+            <p style="text-align: center;">Post code of you area :<input type="numbers" name="numbers" id="numbers"></p> 
+
+        </form>
+        <fieldset>
+            <legend><b>Payment--Information</b></legend>
+            <h1 style="text-align: center;">Payment--Information</h1>
+            <select name="Payment-Info" id="Payment--Info">
+                <option value="">-Select a card--</option>
+                <option value="Visa">Visa card</option>
+                <option value="Credit">Credit card.</option>
+                <option value="Debit card">Debit card</option>
+                <option value="Other">Other</option>
+            </select>
+            <p>Card number : <input type="password" name="Card number" id="card number"></p>
+            <p>Crad Expiration Date : <input type="date" name="card Expiration date" id="card Expiration date"></p>
+            <p>CVV : <input type="Password" name="CVV" id="CVV"></p>
+        </fieldset> 
+        <input type="submit" value="pay now">   
+    </div>
+</body>
+</html>
